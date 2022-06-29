@@ -6,7 +6,7 @@
   --background-nav-selected: rgb(102, 2, 60); /* rgb(203, 77, 73) */
   --background-nav: rgb(40, 44, 53);
   --background-primary: rgb(242, 243, 244);
-  --background-tag: #b5b5b5;
+  --background-tag: rgb(204, 157, 230); /* #b5b5b5; */
   --border-inline-code: rgb(215, 215, 215);
   --code-block-background: #ffffff;
   --code-block-border: #92a1a17a;
@@ -15,6 +15,7 @@
   --interactive-accent: rgb(102, 2, 60); /* rgb(203, 77, 73) */
   --interactive-accent-hover: rgb(204, 157, 230); /* rgb(151, 46, 43); */
   --text-accent: rgb(255, 231, 0); /* rgb(203, 77, 73) */
+  --text-accent-alt: rgb(204, 157, 230);
   --text-faint: rgb(150, 150, 150);
   --text-header: rgb(44, 44, 44);
   --text-highlight-bg: #b4ff0066;
@@ -25,6 +26,8 @@
   --text-normal-opposite: rgb(216, 216, 216);
   
   /* --background-secondary-alt: rgb(102, 2, 60); */
+  --internal-link: var(--interactive-accent-hover);
+  --internal-link-hover: var(--interactive-accent);
 }
 
 .theme-dark {
@@ -99,6 +102,51 @@
 .cm-formatting-header-5:after { bottom: -1px; content: "H5"; }
 .cm-formatting-header-6:after { bottom: -1px; content: "H6"; }
 .cm-formatting-header-7:after { bottom: -1px; content: "H7"; } */
+
+/* Custom */
+span.cm-hmd-internal-link.cm-hmd-internal-link,
+.internal-link {
+	color: var(--internal-link);
+}
+span.cm-hmd-internal-link.cm-hmd-internal-link:hover,
+.internal-link:hover {
+	color: var(--internal-link-hover);
+}
+
+
+.suggestion-hotkey,
+.frontmatter-container .tag {
+	background-color: var(--background-tag);
+    color: var(--text-normal);
+}
+.frontmatter-container .tag:hover {
+	background-color: var(--background-nav-selected);
+    color: var(--text-normal-opposite);
+}
+.suggestion-item.is-selected {
+    background-color: var(--background-nav-selected);
+    color: var(--text-accent);
+}
+
+.u-pop {
+    color: var(--text-accent-alt);
+    font-weight: 600;
+}
+
+.nav-action-button:hover .widget-icon {
+    fill: var(--text-accent);
+}
+.nav-action-button:hover .widget-icon path {
+	stroke: var(--text-accent);
+}
+.workspace-ribbon-collapse-btn:hover {
+	color: var(--text-accent);
+}
+
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
+	border-bottom-color: var(--background-nav-selected);
+}
+/* Custom */
 
 .cm-s-obsidian span.cm-url {
   color: var(--text-accent);
@@ -187,6 +235,10 @@
 /* Background color of selected tab */
 .workspace-tab-header.is-active {
   background-color: var(--background-nav);
+}
+.workspace-tab-header:hover,
+.workspace-tab-header.is-active:hover {
+  color: var(--text-accent);
 }
 
 /* resize handle coloring */
