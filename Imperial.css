@@ -143,11 +143,15 @@ span.cm-hmd-internal-link.cm-hmd-internal-link:hover,
 .workspace-ribbon:not(.is-collapsed) .workspace-ribbon-collapse-btn:hover {
 	color: var(--text-accent);
 }
-
 .workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
 	border-bottom-color: var(--background-nav-selected);
 }
-/* Custom */
+
+.status-bar-item.mod-clickable:hover {
+	color: var(--text-accent);
+}
+
+/* Custom End*/
 
 .cm-s-obsidian span.cm-url {
   color: var(--text-accent);
