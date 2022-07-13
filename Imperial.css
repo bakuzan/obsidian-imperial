@@ -150,6 +150,9 @@ span.cm-hmd-internal-link.cm-hmd-internal-link:hover,
 .status-bar-item.mod-clickable:hover {
 	color: var(--text-accent);
 }
+.titlebar {
+	border-bottom-color: var(--background-modifier-cover)
+}
 
 /* Custom End*/
 
