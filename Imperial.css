@@ -406,14 +406,14 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 
 
 /* Font for the markdown source panel */
-div.markdown-source-view {
-	font-family: var(--font-family-editor);
-}
+/* div.markdown-source-view { */
+	/* font-family: var(--font-family-editor); */
+/* } */
 
-/* Font for the markdown preview panel */
-div.markdown-preview-view {
-	font-family: var(--font-family-preview);
-}
+/* /* Font for the markdown preview panel */ */
+/* div.markdown-preview-view { */
+	/* font-family: var(--font-family-preview); */
+/* } */
 
 /* Coloring the list bullets/numbers */
 .cm-s-obsidian span.cm-formatting-list {
@@ -547,7 +547,7 @@ a.tag {
   padding-bottom: 2px;
   padding-top: 2px;
 	text-decoration: none;
-  font-family: var(--font-family-editor);
+  /* font-family: var(--font-family-editor); */
   font-size: 0.9em;
 }
 
