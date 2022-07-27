@@ -154,6 +154,10 @@ span.cm-hmd-internal-link.cm-hmd-internal-link:hover,
 	border-bottom-color: var(--background-modifier-cover)
 }
 
+.footnotes {
+	font-size: 0.75em;
+}
+
 /* Custom End*/
 
 .cm-s-obsidian span.cm-url {
