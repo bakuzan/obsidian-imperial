@@ -14,7 +14,8 @@
   --font-family-preview: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
   --interactive-accent: rgb(102, 2, 60); /* rgb(203, 77, 73) */
   --interactive-accent-hover: rgb(204, 157, 230); /* rgb(151, 46, 43); */
-  --text-accent: rgb(255, 231, 0); /* rgb(203, 77, 73) */
+  --text-accent: rgb(255, 215, 0);/* rgb(255, 231, 0); rgb(203, 77, 73) */
+  --text-accent-hover: rgb(225, 200, 0);
   --text-accent-alt: rgb(204, 157, 230);
   --text-faint: rgb(150, 150, 150);
   --text-header: rgb(44, 44, 44);
