@@ -32,7 +32,7 @@
   --nav-item-color-selected: #ffd700;
   --nav-item-color-highlighted: var(--text-accent-hover);
   --nav-item-background-hover: var(--background-modifier-hover);
-  --nav-item-background-active: var(--background-modifier-hover);
+  --nav-item-background-active: #66023c; /* var(--background-modifier-hover); */
   --nav-item-background-selected: hsla(var(--color-accent-hsl), 0.2);
 
   --vault-name-color: #ffd700;
