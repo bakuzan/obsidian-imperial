@@ -1,0 +1,20 @@
+ol[type="A"] {
+  list-style: upper-alpha;
+}
+
+ol[type="I"] {
+  list-style: upper-roman;
+}
+
+/* ul[type="C"] {
+  list-style: circle;
+}
+
+ul[type="S"] {
+  list-style: square;
+}
+
+ul[type="S"] .list-bullet,
+ul[type="C"] .list-bullet {
+  display: none;
+} */
