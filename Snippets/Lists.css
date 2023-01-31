@@ -1,3 +1,7 @@
+/* 
+** Numbered Lists
+*/
+ 
 ol[type="A"] {
   list-style: upper-alpha;
 }
@@ -6,15 +10,17 @@ ol[type="I"] {
   list-style: upper-roman;
 }
 
-/* ul[type="C"] {
-  list-style: circle;
+/* 
+** Bulleted Lists
+*/
+
+/* Circle (empty center) */
+.has-list-bullet[type="C"] .list-bullet::after {
+    background-color: transparent;
+    border: 1px solid var(--list-marker-color);
 }
 
-ul[type="S"] {
-  list-style: square;
+/* Square */
+.has-list-bullet[type="S"] .list-bullet::after {
+	border-radius: 0;
 }
-
-ul[type="S"] .list-bullet,
-ul[type="C"] .list-bullet {
-  display: none;
-} */
