@@ -1477,7 +1477,8 @@ body.check-bg .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] {
 }
 
 /* Customised */
-li:not([data-task='x']) input[type='checkbox']:checked:after {
+li:not([data-task='x']) > input[type='checkbox']:checked:after,
+li:not([data-task='x']) > p > input[type='checkbox']:checked:after {
   background-color: transparent;
   display: none;
 }
