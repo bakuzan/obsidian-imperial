@@ -122,3 +122,8 @@
 .empty-state-action {
   cursor: var(--cursor-link);
 }
+
+/* 1.3.3 Fixes */
+.workspace-ribbon.mod-left.mod-left {
+    margin-top: calc(var(--header-height) - 1px);
+}
