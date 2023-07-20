@@ -15,12 +15,20 @@ ol[type="I"] {
 */
 
 /* Circle (empty center) */
+ul[type="C"]:not(.has-list-bullet) {
+	list-style: circle;
+}
+
 .has-list-bullet[type="C"] .list-bullet::after {
     background-color: transparent;
     border: 1px solid var(--list-marker-color);
 }
 
 /* Square */
+ul[type="S"]:not(.has-list-bullet) {
+	list-style: square;
+}
+
 .has-list-bullet[type="S"] .list-bullet::after {
 	border-radius: 0;
 }
