@@ -1,12 +1,12 @@
 .theme-light {
-  --font-family-editor: Avenir, 'Avenir Next', 'Avenir Next Cyr', 'Inter',
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    'Microsoft YaHei Light', sans-serif;
-  --font-family-preview: Avenir, 'Avenir Next', 'Avenir Next Cyr', 'Inter',
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    'Microsoft YaHei Light', sans-serif;
+  --font-family-editor: Avenir, "Avenir Next", "Avenir Next Cyr", "Inter",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Microsoft YaHei Light", sans-serif;
+  --font-family-preview: Avenir, "Avenir Next", "Avenir Next Cyr", "Inter",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Microsoft YaHei Light", sans-serif;
 
   --checkbox-size: 20px;
 
@@ -17,6 +17,7 @@
   --status-bar-background: #282c35;
 
   --ribbon-background: #66023c;
+  --ribbon-background-collapsed: #66023c;
 
   --icon-color-active: #ffd700;
   --icon-color-focused: #ffd700;
@@ -125,5 +126,5 @@
 
 /* 1.3.3 Fixes */
 .workspace-ribbon.mod-left.mod-left {
-    margin-top: calc(var(--header-height) - 1px);
+  margin-top: calc(var(--header-height) - 1px);
 }
