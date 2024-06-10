@@ -128,3 +128,8 @@
 .workspace-ribbon.mod-left.mod-left {
   margin-top: calc(var(--header-height) - 1px);
 }
+
+/* 1.6.3 Fixes */
+.workspace-sidedock-vault-profile {
+  display: none !important;
+}
